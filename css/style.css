@@ -35,9 +35,7 @@ body {
 }
 
 .header {
-    height: 712px;
     background-color: #EFF8FF;
-
 }
 
 .navbar {
@@ -45,7 +43,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 0em;
+    padding: 1.5rem 1.5em;
+    border-bottom: 1px solid #0E384C1A;
 }
 
 .logo {
@@ -101,6 +100,7 @@ body {
     overflow: hidden;
     z-index: 1;
     font-family: inherit;
+    border-radius: 30px;
 }
 
 .nav-btn::before {
@@ -112,7 +112,7 @@ body {
     height: 100%;
     background-color: #0e384c;
     transform: translateX(-100%);
-    transition: all .3s;
+    transition: all .5s;
     z-index: -1;
 }
 
@@ -157,4 +157,77 @@ p {
     width: 500px;
     position: relative;
     bottom: 75px;
+}
+
+
+.image-section {
+    flex: 1;
+    min-width: 300px;
+}
+.main-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.secondary-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+.content-section {
+    flex: 1;
+    min-width: 300px;
+    padding: 0 20px;
+}
+.about-us {
+    color: #0077be;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+h1 {
+    color: #005a8c;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 20px;
+}
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.feature-item {
+    display: flex;
+    align-items: center;
+}
+.feature-item::before {
+    content: "✓";
+    color: #0077be;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.cta-button {
+    display: inline-block;
+    background-color: #0077be;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.years-experience {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #0077be;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 0.8em;
+    text-align: center;
 }
