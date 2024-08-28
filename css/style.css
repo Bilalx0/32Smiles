@@ -216,6 +216,7 @@ body {
 }
 
 .about-description {
+    color: #527282;
     margin-bottom: 45px;
     font-size: 1.1rem;
 }
@@ -248,7 +249,7 @@ body {
 
 .services-section {
     text-align: center;
-    margin-top: 40px;
+    margin: 115px 0px;
 }
 
 .section-header {
@@ -256,7 +257,7 @@ body {
 }
 
 .section-description {
-    color: #666;
+    color: #527282;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -269,10 +270,10 @@ body {
 
 .service-card {
     background-color: white;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 30px;
+    padding: 30px 35px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;
 }
 
 .service-icon {
@@ -288,7 +289,7 @@ body {
 }
 
 .service-description {
-    color: #666;
+    color: #527282;
     margin-bottom: 15px;
 }
 
