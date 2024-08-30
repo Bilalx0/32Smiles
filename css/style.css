@@ -61,10 +61,12 @@ body {
 .logo-text {
     color: #1e84b5;
     font-size: 2rem;
+    font-family: 'Gistesy';
 }
 
 .logo-highlight {
     color: #0e384c;
+    font-family: 'Gistesy';
 }
 
 .nav-list {
@@ -74,6 +76,7 @@ body {
 
 .nav-item {
     list-style: none;
+    border-bottom: 2px solid transparent;
 }
 
 .nav-item:hover {
@@ -398,6 +401,10 @@ footer{
     padding: 100px 0px ;
 }
 
+.mainfooter .logo-highlight{
+    color: #EFF8FF;
+}
+
 .mainfooter h1{
     font-size: 1.4rem;
     font-weight: 600;
@@ -445,4 +452,8 @@ footer{
     font-size: 1.1rem;
     letter-spacing: 1px;
     font-weight: 300;
+}
+
+.menu-toggle{
+    display: none;
 }
