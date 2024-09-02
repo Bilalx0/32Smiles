@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+/* 
+@viewport {
+    width: device-width;
+    initial-scale: 1;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #38353d;
+}
+
+body {
+    background-color: #EFF8FF;
+} 
+
+.main-container {
+    display: block;
+    width: 96%;
+    margin: auto;
+}
+
+.link-container {
+    padding: 15px 20px;
+    color: #38353d;
+}
+
+.link-container span{
+    color: #1e84b5;
+}
+
+.dental-knowledge-section{
+    background-color: #0e384c;
+}
+
+.dental-inner-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.dental-inner-container img{
+    width: 570px;
+    clip-path: polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.dental-context{
+    padding: 30px 0px 0px 55px;
+}
+
+.section-title {
+    color: #1e84b5;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.title-highlight {
+    color: #EFF8FF;
+}
+
+.about-description {
+    color: #EFF8FF;
+    margin-bottom: 45px;
+    font-size: 1.1rem;
+}
+
+.seminars-section {
+    padding: 80px 20px;
+    max-width: 655px;
+}
+
+.seminars-section h2 {
+    font-size: 2.5em;
+    color: #0e384c;
+    margin-bottom: 20px;
+    width: 455px;
+}
+
+.seminars-section .title-highlight{
+    color: #1e84b5;
+}
+
+.seminars-section p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.seminar-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    width: 378px;
+}
+
+.seminar-links a {
+    font-size: 1.2em;
+    color: #2c3e50;
+    text-decoration: none;
+    border-bottom: 2px solid #2c3e50;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.seminar-links a:hover {
+    color: #3498db;
+    border-color: #3498db;
+}
+
+.infomartion-title h2{
+    font-size: 2em;
+    color: #0e384c;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.infomartion-title .title-highlight, .information-box-context .title-highlight{
+    color: #1e84b5;
+}
