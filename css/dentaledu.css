@@ -131,3 +131,40 @@ body {
 .infomartion-title .title-highlight, .information-box-context .title-highlight{
     color: #1e84b5;
 }
+
+
+.pic-in-one{
+    display: flex;
+    gap: 20px;
+}
+
+.pic-in-one img{
+    width: 400px;
+    border-radius: 30px;
+}
+
+.information-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin: 100px 0px;
+}
+
+.information-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.information-box-context h2{
+    font-size: 2.5rem;
+    color: #0e384c;
+    margin-bottom: 20px;
+}
+
+.information-box-context p{
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
